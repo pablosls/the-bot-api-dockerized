@@ -1,0 +1,13 @@
+docker build .
+
+docker build -t node-docker .  (where is the dockerfile)
+
+docker run node-docker:latest
+
+docker-compose up
+
+docker-compose up -d (run in background)
+
+docker-compose up --build  (build)
+
+docker-compose down -v  (remove all volumes)
